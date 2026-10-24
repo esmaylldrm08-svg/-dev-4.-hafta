@@ -1,0 +1,12 @@
+[project]
+name = "uzay-oyunu"
+version = "0.4.0"
+description = "Uzay macerası oyunu – İleri Python Programlama Hafta 4: Üreteçler ve functools"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
